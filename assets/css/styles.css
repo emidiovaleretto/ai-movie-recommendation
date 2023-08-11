@@ -1,0 +1,14 @@
+:root {
+    font-size: 62.5%;
+
+    --purple-color: #8323FF; 
+    --pink-color: #FF2DAF;
+    --yellow-color: #FEEA35;
+
+    --white: #FFFFFF;
+    --gray-100: #8B8D9B;
+    --gray-200: #373745;
+    --gray-300: #2B2B37;    
+    --gray-400: #1E1F28;
+
+}
