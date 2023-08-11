@@ -6,10 +6,68 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./assets/css/styles.css">
     <title>AI Movie Recommendation</title>
 </head>
 <body>
-    
+    <div id="app">
+        <header>
+            <div>
+                <h1><img src="./assets/img/logo.svg" alt="Logo Movie AI"></h1>
+                <button>New recommendation <img src="./assets/img/generate-icon.svg" alt="Generate icon"></button>
+            </div>
+        </header>
+        <main>
+            <div class="movie-card">
+                <div class="movie-title">
+                    <h2>Barbie</h2>
+                    <span><i class="fa-solid fa-star"></i>4.9</span>
+                </div>
+                <figure class="movie-poster">
+                    <img src="./assets/img/movie-1.png" alt="Movie 1 poster">
+                    <figcaption>
+                        <div class="movie-details">
+                            <span><i class="fa-regular fa-clock"></i> 1:54:00</span>
+                            <span><i class="fa-regular fa-calendar"></i> 2023</span>
+                        </div>
+                    </figcaption>
+                </figure>
+                <button><img src="./assets/img/play-icon.svg" alt="Play icon">Watch trailer</button>
+            </div>
+            <div class="movie-card">
+                <div class="movie-title">
+                    <h2>Oppenheimer</h2>
+                    <span><i class="fa-solid fa-star"></i>4.9</span>
+                </div>
+                <figure class="movie-poster">
+                    <img src="./assets/img/movie-2.png" alt="Movie 2 poster">
+                    <figcaption>
+                        <div class="movie-details">
+                            <span><i class="fa-regular fa-clock"></i> 3:00:00</span>
+                            <span><i class="fa-regular fa-calendar"></i> 2023</span>
+                        </div>
+                    </figcaption>
+                </figure>
+                <button><img src="./assets/img/play-icon.svg" alt="Play icon">Watch trailer</button>
+            </div>
+            <div class="movie-card">
+                <div class="movie-title">
+                    <h2>Indiana Jones e o Chamado do Destino</h2>
+                    <span><i class="fa-solid fa-star"></i>4.9</span>
+                </div>
+                <figure class="movie-poster">
+                    <img src="./assets/img/movie-3.png" alt="Movie 3 poster">
+                    <figcaption>
+                        <div class="movie-details">
+                            <span><i class="fa-regular fa-clock"></i> 2:22:00</span>
+                            <span><i class="fa-regular fa-calendar"></i> 2023</span>
+                        </div>
+                    </figcaption>
+                </figure>
+                <button><img src="./assets/img/play-icon.svg" alt="Play icon">Watch trailer</button>
+            </div>
+        </main>
+    </div>
 </body>
 </html>
